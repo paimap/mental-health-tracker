@@ -22,6 +22,3 @@ if __name__ == "__main__":
     main()
 
 
-...
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "paima-ishak-mentalhealthtracker1.pbp.cs.ui.ac.id"]
-...
