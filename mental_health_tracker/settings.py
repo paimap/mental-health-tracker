@@ -29,7 +29,7 @@ PRODUCTION = os.getenv("PRODUCTION", False)
 DEBUG = not PRODUCTION
 
 ...
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "http://paima-ishak-mentalhealthtracker1.pbp.cs.ui.ac.id"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "http://paima-ishak-mentalhealthtracker.pbp.cs.ui.ac.id"]
 ...
 
 
@@ -128,4 +128,4 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://paima-ishak-mentalhealthtracker1.pbp.cs.ui.ac.id", "https://paima-ishak-mentalhealthtracker1.pbp.cs.ui.ac.id"]
+CSRF_TRUSTED_ORIGINS = ["http://localhost","http://127.0.0.1","http://paima-ishak-mentalhealthtracker.pbp.cs.ui.ac.id", "https://paima-ishak-mentalhealthtracker.pbp.cs.ui.ac.id"]
